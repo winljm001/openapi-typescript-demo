@@ -18,8 +18,14 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "types": ["node"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@fetch": ["src/utils/fetch/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "src/services/api/typings.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
