@@ -5,4 +5,5 @@ generateService({
   schemaPath: "http://192.168.10.23:8080/v3/api-docs",
   serversPath: "./src/services",
   projectName: "api",
+  mockFolder: "./.mocks",
 });
