@@ -4,17 +4,17 @@ import { Request, Response } from 'express';
 export default {
   'POST /test/exception3': (req: Request, res: Response) => {
     res.status(200).send({
-      success: true,
-      code: '查业究定东知主提加部劳所究门法得白。',
-      message: '快长叫西史收表心来小感理并称论。',
+      success: false,
+      code: '极与教性图走深步统现新工组。',
+      message: '们号资难按件立流引石见按花以两生。',
       data: {
-        id: 70,
-        name: '杜杰',
+        id: 94,
+        name: '罗敏',
         sex: true,
-        age: 63,
-        createDateTime: '1995-02-27 13:51:17',
-        createDate: '2001-02-15',
-        createTime: { hour: 98, minute: 89, second: 93, nano: 87 },
+        age: 69,
+        createDateTime: '1989-03-04 22:44:52',
+        createDate: '1981-01-14',
+        createTime: { hour: 88, minute: 91, second: 73, nano: 87 },
         statusEnum: 'ENABLE',
         statusEnum2: 'ENABLE',
       },

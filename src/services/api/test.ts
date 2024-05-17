@@ -52,7 +52,7 @@ export async function findTestById(
   });
 }
 
-/** 多条数据返回 POST /test/listResult */
+/** 统一返回--多条数据返回 POST /test/listResult */
 export async function listResult(options?: { [key: string]: any }) {
   return request<API.ListResultTestDto>('/test/listResult', {
     method: 'POST',
@@ -60,7 +60,7 @@ export async function listResult(options?: { [key: string]: any }) {
   });
 }
 
-/** 分页数据返回 POST /test/pageResult */
+/** 统一返回--分页数据返回 POST /test/pageResult */
 export async function pageResult(body: API.TestPageParamDto, options?: { [key: string]: any }) {
   return request<API.PageResultTestDto>('/test/pageResult', {
     method: 'POST',
@@ -72,7 +72,7 @@ export async function pageResult(body: API.TestPageParamDto, options?: { [key: s
   });
 }
 
-/** 无数据返回 POST /test/resultBase */
+/** 统一返回--无数据返回 POST /test/resultBase */
 export async function resultBase(body: API.TestParamDto, options?: { [key: string]: any }) {
   return request<API.BaseResultVoid>('/test/resultBase', {
     method: 'POST',
@@ -84,7 +84,7 @@ export async function resultBase(body: API.TestParamDto, options?: { [key: strin
   });
 }
 
-/** 单条数据返回 POST /test/singleResult */
+/** 统一返回--单条数据返回 POST /test/singleResult */
 export async function singleResult(options?: { [key: string]: any }) {
   return request<API.SingleResultTestDto>('/test/singleResult', {
     method: 'POST',

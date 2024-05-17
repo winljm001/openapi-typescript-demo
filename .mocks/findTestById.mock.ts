@@ -4,13 +4,13 @@ import { Request, Response } from 'express';
 export default {
   'GET /test/findTestById/:id': (req: Request, res: Response) => {
     res.status(200).send({
-      id: 79,
-      name: '何洋',
-      sex: true,
-      age: 69,
-      createDateTime: '2021-12-13 21:58:59',
-      createDate: '2001-03-08',
-      createTime: { hour: 96, minute: 63, second: 98, nano: 78 },
+      id: 89,
+      name: '沈霞',
+      sex: false,
+      age: 64,
+      createDateTime: '2014-11-17 02:05:52',
+      createDate: '2001-02-11',
+      createTime: { hour: 61, minute: 61, second: 99, nano: 87 },
       statusEnum: 'ENABLE',
       statusEnum2: 'ENABLE',
     });

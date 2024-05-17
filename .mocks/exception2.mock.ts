@@ -5,8 +5,8 @@ export default {
   'POST /test/exception2': (req: Request, res: Response) => {
     res.status(200).send({
       success: false,
-      code: '命色除产形生看便北而张少交政。',
-      message: '门候门事又深林被历第外至新温好。',
+      code: '厂象取器斯表都些力际边照知价花。',
+      message: '照却于红历强她类三气做采完儿劳区。',
       data: {},
     });
   },
