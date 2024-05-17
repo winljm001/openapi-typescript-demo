@@ -4,13 +4,13 @@ import { Request, Response } from 'express';
 export default {
   'GET /api/user/{id}': (req: Request, res: Response) => {
     res.status(200).send({
-      id: 79,
-      name: '谭秀兰',
-      mobileNo: '石给办离强革义采头效收完所科消对红。',
-      email: 'b.lhtli@oemrtbt.mp',
-      status: 93,
-      createBy: 67,
-      createTime: '1999-02-27 02:25:35',
+      id: 78,
+      name: '吴娟',
+      mobileNo: '广称思单处水就矿重龙报消去对米往又。',
+      email: 'x.ylyqpruq@xxcqzbiyot.cg',
+      status: 67,
+      createBy: 84,
+      createTime: '2019-12-30 07:55:09',
     });
   },
 };

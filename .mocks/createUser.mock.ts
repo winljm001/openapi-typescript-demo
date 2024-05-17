@@ -4,13 +4,13 @@ import { Request, Response } from 'express';
 export default {
   'POST /api/user/create': (req: Request, res: Response) => {
     res.status(200).send({
-      id: 93,
-      name: '蔡军',
-      mobileNo: '级声种在水少持开思生计米是地。',
-      email: 'y.cpqomj@qjpphh.va',
-      status: 70,
-      createBy: 64,
-      createTime: '2022-08-09 09:35:57',
+      id: 78,
+      name: '唐超',
+      mobileNo: '府车即连直其记需方第热音响光三美。',
+      email: 'r.uxkogjed@jvleccb.tv',
+      status: 82,
+      createBy: 86,
+      createTime: '1980-08-25 00:41:54',
     });
   },
 };

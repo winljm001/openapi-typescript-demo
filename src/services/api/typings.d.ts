@@ -1,4 +1,15 @@
 declare namespace API {
+  type BaseResultVoid = {
+    /** 是否成功 */
+    success?: boolean;
+    /** 错误码 */
+    code?: string;
+    /** 返回消息 */
+    message?: string;
+    /** 返回数据 */
+    data?: Record<string, any>;
+  };
+
   type createUserParams = {
     userDTO: UserDTO;
   };
@@ -11,11 +22,62 @@ declare namespace API {
     id: number;
   };
 
+  type ListResultTestDto = {
+    /** 是否成功 */
+    success?: boolean;
+    /** 错误码 */
+    code?: string;
+    /** 返回消息 */
+    message?: string;
+    /** 返回数据 */
+    data?: TestDto[];
+  };
+
   type LocalTime = {
     hour?: number;
     minute?: number;
     second?: number;
     nano?: number;
+  };
+
+  type PageListTestDto = {
+    /** 页码 */
+    page?: number;
+    /** 总记录数 */
+    total?: number;
+    /** 数据列表 */
+    list?: TestDto[];
+  };
+
+  type PageResultTestDto = {
+    /** 是否成功 */
+    success?: boolean;
+    /** 错误码 */
+    code?: string;
+    /** 返回消息 */
+    message?: string;
+    data?: PageListTestDto;
+  };
+
+  type SingleResultLong = {
+    /** 是否成功 */
+    success?: boolean;
+    /** 错误码 */
+    code?: string;
+    /** 返回消息 */
+    message?: string;
+    /** 返回数据 */
+    data?: number;
+  };
+
+  type SingleResultTestDto = {
+    /** 是否成功 */
+    success?: boolean;
+    /** 错误码 */
+    code?: string;
+    /** 返回消息 */
+    message?: string;
+    data?: TestDto;
   };
 
   type TestDto = {
@@ -36,6 +98,15 @@ declare namespace API {
     statusEnum?: 'ENABLE' | 'DISABLE';
     /** 状态2 */
     statusEnum2?: 'ENABLE' | 'DISABLE';
+  };
+
+  type TestPageParamDto = {
+    /** 页码 */
+    page?: number;
+    /** 每页数量 */
+    pageSize?: number;
+    /** 名称 */
+    name?: string;
   };
 
   type TestParamDto = {
