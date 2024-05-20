@@ -5,7 +5,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import React from "react";
 import { useEffect } from "react";
-import { findTestById } from "./services/api/ceshijiekou";
+import { findTestById } from "./services/api/test";
 
 function App() {
   const [count, setCount] = useState(0);

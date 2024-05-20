@@ -2,15 +2,15 @@
 import { Request, Response } from 'express';
 
 export default {
-  'GET /api/user/{id}': (req: Request, res: Response) => {
+  'GET /api/user/getUserById/:id': (req: Request, res: Response) => {
     res.status(200).send({
-      id: 93,
-      name: '郝静',
-      mobileNo: '看你除形干声增温是并叫布原其开龙史。',
-      email: 'y.yzyfgpts@xwxmvgbz.tw',
-      status: 96,
-      createBy: 96,
-      createTime: '1999-04-20 12:13:11',
+      id: 79,
+      name: '康桂英',
+      mobileNo: '则片论多己每治类做清代质加识段。',
+      email: 'd.jofymi@cixrxcqfa.re',
+      status: 98,
+      createBy: 63,
+      createTime: '2004-11-15 21:08:37',
     });
   },
 };

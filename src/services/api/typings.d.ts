@@ -10,10 +10,6 @@ declare namespace API {
     data?: Record<string, any>;
   };
 
-  type createUserParams = {
-    userDTO: UserDTO;
-  };
-
   type findTestByIdParams = {
     id: number;
   };

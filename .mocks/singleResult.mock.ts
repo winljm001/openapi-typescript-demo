@@ -4,17 +4,17 @@ import { Request, Response } from 'express';
 export default {
   'POST /test/singleResult': (req: Request, res: Response) => {
     res.status(200).send({
-      success: false,
-      code: '于克出市风先定任步张二置全。',
-      message: '单斗海头期表价适规说状采本。',
+      success: true,
+      code: '花下拉难月红组果队整北行争京权队么。',
+      message: '深广物道年斗后又候飞南始安特自构年。',
       data: {
-        id: 87,
-        name: '汪涛',
-        sex: false,
-        age: 92,
-        createDateTime: '2006-05-21 10:25:32',
-        createDate: '1977-01-26',
-        createTime: { hour: 93, minute: 61, second: 69, nano: 76 },
+        id: 76,
+        name: '程刚',
+        sex: true,
+        age: 87,
+        createDateTime: '1996-06-25 23:03:52',
+        createDate: '1978-11-21',
+        createTime: { hour: 63, minute: 76, second: 71, nano: 100 },
         statusEnum: 'ENABLE',
         statusEnum2: 'ENABLE',
       },

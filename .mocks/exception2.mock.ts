@@ -5,8 +5,8 @@ export default {
   'POST /test/exception2': (req: Request, res: Response) => {
     res.status(200).send({
       success: false,
-      code: '厂象取器斯表都些力际边照知价花。',
-      message: '照却于红历强她类三气做采完儿劳区。',
+      code: '本后号品做理研者物家必方二民次生。',
+      message: '会矿放要论安主些华事提亲志。',
       data: {},
     });
   },

@@ -5,9 +5,9 @@ export default {
   'POST /test/exception': (req: Request, res: Response) => {
     res.status(200).send({
       success: false,
-      code: '命得农及是科积办回有四是切住感。',
-      message: '都识必层飞做七体百铁制府能。',
-      data: 90,
+      code: '记我区间用解却认部至养广开则。',
+      message: '大九斯相动音开议公文基展中住南。',
+      data: 66,
     });
   },
 };
