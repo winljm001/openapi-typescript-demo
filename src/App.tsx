@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import "./App.css";
 
 function App() {
-  API.user.createUser.request({});
+  useEffect(() => {
+    API.test.createTest.request({}, { createDate: "123" });
+  }, []);
   return <div>123</div>;
 }
 
